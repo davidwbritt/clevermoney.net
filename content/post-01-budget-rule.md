@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":84,"mediaLink":"https://clevermoney.net/50-30-20/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/50-30-20.jpg" alt="50/30/20 budget rule illustration" class="wp-image-84 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>If you've ever tried to track every single expense down to the penny, you know how exhausting budgeting can be. Most people give up within a month. The 50/30/20 rule succeeds because it's simple enough to stick with long-term.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Why Most Budgets Fail (And This One Doesn't)</h2>

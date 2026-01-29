@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":89,"mediaLink":"https://clevermoney.net/2026/01/27/understanding-your-credit-score-what-actually-matters-and-what-doesnt/credit-score/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/credit-score.jpg" alt="Understanding your credit score" class="wp-image-89 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>Your credit score is a three-digit number that quietly controls some of the biggest financial decisions in your life. It determines whether you get approved for a mortgage, what interest rate you pay on a car loan, whether a landlord accepts your rental application, and sometimes even whether you get a job offer.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>Despite its importance, most people don't understand how their score is calculated—and the internet is full of myths that cause people to make counterproductive moves. Here's what actually matters.</p>

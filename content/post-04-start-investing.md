@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":93,"mediaLink":"https://clevermoney.net/2026/01/27/how-to-start-investing-with-100-a-complete-beginners-guide/start-small/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/start-small.jpg" alt="Start investing with small amounts" class="wp-image-93 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>The biggest myth in investing is that you need a lot of money to start. You don't. With $100 and a smartphone, you can open a brokerage account and buy your first investment today. The real cost of waiting isn't the money you don't invest—it's the compound growth you miss.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Why Starting Small Beats Waiting Until You Have More</h2>

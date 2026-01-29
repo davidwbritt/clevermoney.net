@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":87,"mediaLink":"https://clevermoney.net/2026/01/27/best-high-yield-savings-accounts-where-to-park-your-cash-in-2026/hysa/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/hysa.jpg" alt="High-yield savings account growth" class="wp-image-87 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>If your savings are sitting in a traditional bank earning 0.01% interest, you're losing money to inflation every single day. High-yield savings accounts (HYSAs) currently offer 4-5% APY—that's 400 to 500 times more than what most big banks pay. On $10,000, that's the difference between earning $1 per year and earning $500.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>Switching takes about 10 minutes. Here's everything you need to know.</p>

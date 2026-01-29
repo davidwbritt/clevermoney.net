@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":99,"mediaLink":"https://clevermoney.net/2026/01/27/the-fire-movement-explained-how-to-retire-decades-early/fire/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/fire.jpg" alt="FIRE Movement - Financial Independence Retire Early" class="wp-image-99 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>FIRE stands for Financial Independence, Retire Early. It's a movement built on a simple mathematical truth: if you save and invest a large enough percentage of your income, you can build a portfolio that covers your living expenses indefinitely—potentially decades before the traditional retirement age of 65.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>This isn't about deprivation or extreme frugality (though some practitioners go that route). It's about understanding the relationship between your savings rate, your investment returns, and the number of years until you're financially free.</p>

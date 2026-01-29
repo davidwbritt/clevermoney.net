@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":85,"mediaLink":"https://clevermoney.net/2026/01/27/debt-snowball-vs-debt-avalanche-which-payoff-strategy-actually-works/snowball/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/snowball.jpg" alt="Debt snowball vs avalanche comparison" class="wp-image-85 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>You've decided to get serious about paying off debt. You've cut expenses, maybe picked up extra income, and you have money to throw at your balances. But which debt do you attack first? This single decision can mean the difference between staying motivated for years or giving up after months.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>Two strategies dominate the debt payoff conversation: the debt snowball and the debt avalanche. Both work. But one might work significantly better for you depending on your personality and situation.</p>

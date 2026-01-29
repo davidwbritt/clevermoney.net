@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":95,"mediaLink":"https://clevermoney.net/2026/01/27/index-funds-explained-the-simplest-way-to-build-long-term-wealth/index-funds/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/index-funds.jpg" alt="Index funds for long-term wealth building" class="wp-image-95 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>Warren Buffett, arguably the greatest investor alive, has one piece of advice for regular people: buy index funds. In his 2013 letter to shareholders, he instructed that 90% of his wife's inheritance be invested in a low-cost S&P 500 index fund. If a billionaire investor thinks index funds are the answer, they're worth understanding.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">What Is an Index Fund?</h2>

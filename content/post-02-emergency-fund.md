@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":88,"mediaLink":"https://clevermoney.net/2026/01/27/how-to-build-an-emergency-fund-even-on-a-tight-budget/emergency/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/emergency.jpg" alt="Emergency fund savings jar" class="wp-image-88 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>An emergency fund isn't exciting. It won't make you rich. But it's the single most important thing standing between you and financial disaster. Without one, every unexpected expense becomes a crisis—a broken car, a medical bill, a job loss—and crises lead to debt spirals that take years to escape.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Why Emergency Funds Matter More Than Investing</h2>

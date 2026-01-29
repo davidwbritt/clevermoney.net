@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":91,"mediaLink":"https://clevermoney.net/2026/01/27/12-side-hustles-that-actually-pay-well-in-2026/side-hustles/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/side-hustles.jpg" alt="Side hustles for extra income" class="wp-image-91 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>Most "side hustle" articles list the same tired ideas: take surveys for pennies, sell your plasma, deliver food for less than minimum wage after expenses. Those aren't side hustles—they're traps that trade hours for scraps.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>A real side hustle either pays well per hour, builds a marketable skill, or creates income that grows over time. Here are 12 options that meet at least one of those criteria, organized by how quickly you can start earning.</p>

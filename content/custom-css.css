@@ -1,0 +1,473 @@
+/* ==========================================================================
+   Clever Money - Custom CSS
+   Add this to: WordPress Admin → Appearance → Customize → Additional CSS
+   ========================================================================== */
+
+/* ==========================================================================
+   0. Header & Navigation - PROMINENT MENU LINKS
+   ========================================================================== */
+
+/* Override Kadence CSS custom properties for navigation */
+:root {
+    --global-palette5: #1f2933;  /* Menu link color - was gray, now dark */
+}
+
+/* Main navigation links - darker, bolder, more prominent */
+.header-navigation .menu > li > a,
+.header-navigation .menu-item > a,
+.primary-menu-container .menu > li > a,
+.header-menu-container .menu > li > a,
+nav.navigation .menu > li > a {
+    color: #1f2933 !important;
+    font-weight: 600 !important;
+    font-size: 1.05rem !important;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    transition: all 0.2s ease;
+    padding: 0.6em 1.1em !important;
+    border-radius: 6px;
+    margin: 0 2px;
+}
+
+/* Hover state - teal background with white text for maximum impact */
+.header-navigation .menu > li > a:hover,
+.header-navigation .menu-item > a:hover,
+.primary-menu-container .menu > li > a:hover,
+.header-menu-container .menu > li > a:hover,
+nav.navigation .menu > li > a:hover {
+    color: #ffffff !important;
+    background-color: #008254 !important;
+}
+
+/* Current/active page indicator */
+.header-navigation .menu > li.current-menu-item > a,
+.header-navigation .menu > li.current_page_item > a,
+.header-navigation .menu-item.current-menu-item > a,
+.primary-menu-container .menu > li.current-menu-item > a,
+.header-menu-container .menu > li.current-menu-item > a {
+    color: #008254 !important;
+    font-weight: 700 !important;
+    background-color: rgba(0, 130, 84, 0.1) !important;
+}
+
+/* Remove the underline style that Kadence applies */
+.header-navigation-style-underline .header-menu-container > ul > li > a:after,
+.header-navigation-style-underline .menu-item > a:after {
+    display: none !important;
+}
+
+/* Ensure menu items have proper spacing */
+.header-navigation .menu > li,
+.header-menu-container .menu > li,
+.primary-menu-container .menu > li {
+    margin: 0 3px;
+}
+
+/* Submenu styling */
+.header-navigation .sub-menu,
+.header-menu-container .sub-menu {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 0;
+}
+
+.header-navigation .sub-menu a,
+.header-menu-container .sub-menu a {
+    color: #1f2933 !important;
+    font-weight: 500 !important;
+    padding: 0.6em 1.25em !important;
+}
+
+.header-navigation .sub-menu a:hover,
+.header-menu-container .sub-menu a:hover {
+    color: #008254 !important;
+    background-color: #eef5f2 !important;
+}
+
+/* Mobile menu button styling */
+.menu-toggle-open,
+.mobile-toggle-open {
+    color: #1f2933 !important;
+}
+
+/* Mobile menu links */
+.mobile-navigation a,
+.drawer-navigation a,
+.mobile-menu a {
+    color: #1f2933 !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    padding: 0.85em 1.25em !important;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.mobile-navigation a:hover,
+.drawer-navigation a:hover,
+.mobile-menu a:hover {
+    color: #008254 !important;
+    background-color: #eef5f2 !important;
+}
+
+.mobile-navigation .current-menu-item > a,
+.drawer-navigation .current-menu-item > a {
+    color: #008254 !important;
+    font-weight: 700 !important;
+}
+
+/* ==========================================================================
+   1. Typography Improvements
+   ========================================================================== */
+
+/* Darker headings for better contrast (was #4a5568, now #1f2933) */
+h1, h2, h3, h4, h5, h6,
+.entry-title,
+.wp-block-heading {
+    color: #1f2933;
+}
+
+/* Lead intro paragraphs - larger, lighter for visual hierarchy */
+.lead-intro {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #4a5568;
+    margin-bottom: 2em;
+}
+
+/* ==========================================================================
+   2. Call-to-Action Boxes
+   ========================================================================== */
+
+/* CTA box for deep dive links */
+.cta-box {
+    background: linear-gradient(135deg, #eef5f2 0%, #e8f4ef 100%);
+    border-left: 4px solid #008254;
+    padding: 1.25em 1.5em;
+    margin: 1.5em 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.cta-box a {
+    color: #008254;
+    font-weight: 600;
+}
+
+.cta-box a:hover {
+    color: #005f3f;
+}
+
+/* ==========================================================================
+   3. Journey Path Cards (Start Here page)
+   ========================================================================== */
+
+.journey-paths {
+    gap: 1.5em;
+    margin: 2em 0;
+}
+
+.path-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5em;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.path-card:hover {
+    border-color: #008254;
+    box-shadow: 0 4px 12px rgba(0, 130, 84, 0.1);
+    transform: translateY(-2px);
+}
+
+.path-card h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+.path-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   4. Strategy Comparison Cards (Debt page)
+   ========================================================================== */
+
+.strategy-comparison {
+    gap: 1.5em;
+    margin: 2em 0;
+}
+
+.strategy-card {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 1.5em;
+    border: 1px solid #e2e8f0;
+}
+
+.strategy-card h3 {
+    margin-top: 0;
+    color: #008254;
+    border-bottom: 2px solid #008254;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* ==========================================================================
+   5. Foundation Steps (numbered lists with emphasis)
+   ========================================================================== */
+
+.foundation-steps {
+    counter-reset: step-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.foundation-steps li {
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 3.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.foundation-steps li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.foundation-steps li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.25em;
+    height: 2.25em;
+    background: #008254;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+/* ==========================================================================
+   6. Wealth Ladder (ordered list variation)
+   ========================================================================== */
+
+.wealth-ladder {
+    counter-reset: wealth-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.wealth-ladder li {
+    counter-increment: wealth-counter;
+    position: relative;
+    padding-left: 3em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-left: 2px solid #e2e8f0;
+    margin-left: 1em;
+}
+
+.wealth-ladder li:last-child {
+    border-left-color: #008254;
+}
+
+.wealth-ladder li::before {
+    content: counter(wealth-counter);
+    position: absolute;
+    left: -1em;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    background: #eef5f2;
+    color: #008254;
+    border: 2px solid #008254;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85em;
+}
+
+/* ==========================================================================
+   7. Separator Styling
+   ========================================================================== */
+
+hr.wp-block-separator.is-style-wide {
+    border-color: #e2e8f0;
+    margin: 3em 0;
+}
+
+/* ==========================================================================
+   8. Link Styling Improvements
+   ========================================================================== */
+
+/* Make links in content more visible */
+.entry-content a:not(.wp-block-button__link) {
+    color: #008254;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 130, 84, 0.3);
+    text-underline-offset: 2px;
+    transition: all 0.15s ease;
+}
+
+.entry-content a:not(.wp-block-button__link):hover {
+    color: #005f3f;
+    text-decoration-color: #005f3f;
+}
+
+/* Arrow links */
+.entry-content a[href^="/"]:not(.wp-block-button__link)::after,
+.entry-content a[href*="clevermoney.net"]:not(.wp-block-button__link)::after {
+    /* No arrow by default - only add for specific nav links if desired */
+}
+
+/* ==========================================================================
+   9. Newsletter Placeholder (temporary)
+   ========================================================================== */
+
+.newsletter-placeholder {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e0;
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+    color: #718096;
+}
+
+/* ==========================================================================
+   10. Mobile Responsiveness
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .lead-intro {
+        font-size: 1.1em;
+    }
+
+    .path-card {
+        padding: 1.25em;
+    }
+
+    .journey-paths {
+        gap: 1em;
+    }
+
+    .foundation-steps li {
+        padding-left: 3em;
+    }
+
+    .foundation-steps li::before {
+        width: 2em;
+        height: 2em;
+        font-size: 0.85em;
+    }
+}
+
+/* ==========================================================================
+   11. Print Styles (for people who print articles)
+   ========================================================================== */
+
+@media print {
+    .path-card,
+    .strategy-card,
+    .cta-box {
+        border: 1px solid #ccc;
+        box-shadow: none;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+}
+
+/* ==========================================================================
+   12. Gold Accent Usage (for future premium/featured content)
+   ========================================================================== */
+
+.featured-callout,
+.premium-content {
+    border-left-color: #c9a24d;
+}
+
+.gold-accent {
+    color: #c9a24d;
+}
+
+/* ==========================================================================
+   13. Table Styling (for comparison content)
+   ========================================================================== */
+
+.entry-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+}
+
+.entry-content table th {
+    background: #008254;
+    color: white;
+    padding: 0.75em 1em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.entry-content table td {
+    padding: 0.75em 1em;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.entry-content table tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.entry-content table tr:hover {
+    background: #eef5f2;
+}
+
+/* ==========================================================================
+   14. Blockquote Styling (for tips and quotes)
+   ========================================================================== */
+
+.entry-content blockquote {
+    border-left: 4px solid #c9a24d;
+    background: #fffbf0;
+    padding: 1.25em 1.5em;
+    margin: 1.5em 0;
+    font-style: italic;
+    border-radius: 0 8px 8px 0;
+}
+
+.entry-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   15. Key Numbers / Stats Emphasis
+   ========================================================================== */
+
+.stat-highlight {
+    font-size: 2em;
+    font-weight: 700;
+    color: #008254;
+    display: block;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #718096;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

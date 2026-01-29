@@ -10,9 +10,11 @@
 
 ## WordPress Block Content (Copy this into WordPress block editor)
 
-<!-- wp:paragraph -->
+<!-- wp:media-text {"mediaId":97,"mediaLink":"https://clevermoney.net/2026/01/27/how-to-negotiate-your-salary-a-step-by-step-script-that-works/salary/","mediaType":"image","verticalAlignment":"top"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top"><figure class="wp-block-media-text__media"><img src="https://clevermoney.net/wp-content/uploads/2026/01/salary.jpg" alt="Salary negotiation strategy" class="wp-image-97 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
 <p>Most people never negotiate their salary. Not when they get a job offer, not during annual reviews, not ever. The reason is usually fear—fear of seeming greedy, fear of the offer being rescinded, fear of an awkward conversation. That fear has a price tag: research from Linda Babcock at Carnegie Mellon shows that failing to negotiate a starting salary can cost $500,000 or more over a career.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
 <p>Negotiation isn't a confrontation. It's a conversation between two parties who've already decided they want to work together. Here's how to have that conversation effectively.</p>

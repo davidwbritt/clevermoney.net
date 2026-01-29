@@ -92,28 +92,128 @@ nav.navigation .menu > li > a:hover {
     color: #1f2933 !important;
 }
 
+/* Mobile menu drawer/overlay background */
+.mobile-navigation,
+.drawer-navigation,
+.mobile-drawer,
+.kadence-mobile-drawer,
+.popup-drawer,
+.mobile-navigation-wrap,
+.kadence-popup-drawer,
+#mobile-drawer,
+.drawer-content,
+.kadence-drawer-content {
+    background-color: #eef5f2 !important;
+}
+
+/* Mobile drawer inner container */
+.drawer-inner,
+.mobile-drawer .drawer-inner,
+.kadence-mobile-drawer .drawer-inner,
+.popup-drawer .drawer-inner,
+.drawer-content-wrap,
+.kadence-drawer-content-wrap {
+    background: linear-gradient(180deg, #eef5f2 0%, #f8faf9 50%, #ffffff 100%) !important;
+    border-top: 4px solid #008254 !important;
+}
+
+/* Mobile drawer header area */
+.mobile-drawer .drawer-header,
+.kadence-mobile-drawer .drawer-header,
+.popup-drawer .drawer-header {
+    background-color: #eef5f2 !important;
+    border-bottom: 1px solid #d4e5dd;
+}
+
+/* Mobile close button */
+.drawer-close,
+.menu-toggle-close,
+.mobile-toggle-close,
+.kadence-menu-toggle-close {
+    color: #1f2933 !important;
+}
+
+.drawer-close:hover,
+.menu-toggle-close:hover,
+.mobile-toggle-close:hover {
+    color: #008254 !important;
+}
+
+/* Mobile overlay backdrop */
+.mobile-drawer-overlay,
+.drawer-overlay,
+.kadence-drawer-overlay,
+.popup-overlay {
+    background-color: rgba(31, 41, 51, 0.5) !important;
+}
+
 /* Mobile menu links */
 .mobile-navigation a,
 .drawer-navigation a,
-.mobile-menu a {
+.mobile-menu a,
+.mobile-drawer a,
+.kadence-mobile-drawer a,
+.drawer-inner a {
     color: #1f2933 !important;
     font-weight: 600 !important;
     font-size: 1.1rem !important;
-    padding: 0.85em 1.25em !important;
-    border-bottom: 1px solid #e2e8f0;
+    padding: 1em 1.5em !important;
+    border-bottom: 1px solid rgba(0, 130, 84, 0.15) !important;
+    position: relative;
+}
+
+/* Subtle left accent on menu items */
+.mobile-navigation a::before,
+.drawer-navigation a::before,
+.mobile-drawer a::before,
+.kadence-mobile-drawer a::before,
+.drawer-inner .menu-item a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 0;
+    background-color: #008254;
+    transition: height 0.2s ease;
+}
+
+.mobile-navigation a:hover::before,
+.drawer-navigation a:hover::before,
+.mobile-drawer a:hover::before,
+.kadence-mobile-drawer a:hover::before,
+.drawer-inner .menu-item a:hover::before {
+    height: 60%;
 }
 
 .mobile-navigation a:hover,
 .drawer-navigation a:hover,
-.mobile-menu a:hover {
+.mobile-menu a:hover,
+.mobile-drawer a:hover,
+.kadence-mobile-drawer a:hover {
     color: #008254 !important;
-    background-color: #eef5f2 !important;
+    background-color: #ffffff !important;
 }
 
 .mobile-navigation .current-menu-item > a,
-.drawer-navigation .current-menu-item > a {
+.drawer-navigation .current-menu-item > a,
+.mobile-drawer .current-menu-item > a,
+.kadence-mobile-drawer .current-menu-item > a,
+.drawer-inner .current-menu-item > a {
     color: #008254 !important;
     font-weight: 700 !important;
+    background-color: rgba(0, 130, 84, 0.08) !important;
+}
+
+/* Current menu item has persistent left accent */
+.mobile-navigation .current-menu-item > a::before,
+.drawer-navigation .current-menu-item > a::before,
+.mobile-drawer .current-menu-item > a::before,
+.kadence-mobile-drawer .current-menu-item > a::before,
+.drawer-inner .current-menu-item > a::before {
+    height: 60% !important;
+    background-color: #c9a24d !important;
 }
 
 /* ==========================================================================
